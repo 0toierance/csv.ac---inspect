@@ -5,25 +5,28 @@ const optionDefinitions = [
     { name: 'steam_data', alias: 's', type: String } // Steam data directory
 ];
 
-const winston = require('winston'),
-    args = require('command-line-args')(optionDefinitions),
+const args = require('command-line-args')(optionDefinitions),
+    CONFIG = require(args.config),
+    createLogger = require('./lib/logger'),
+    winston = createLogger(CONFIG.logging || {}),
     bodyParser = require('body-parser'),
     rateLimit = require('express-rate-limit'),
     utils = require('./lib/utils'),
     queue = new (require('./lib/queue'))(),
     InspectURL = require('./lib/inspect_url'),
     botController = new (require('./lib/bot_controller'))(),
-    CONFIG = require(args.config),
     postgres = new (require('./lib/postgres'))(CONFIG.database_url, CONFIG.enable_bulk_inserts),
     gameData = new (require('./lib/game_data'))(CONFIG.game_files_update_interval, CONFIG.enable_game_file_updates),
     errors = require('./errors'),
-    Job = require('./lib/job');
+    Job = require('./lib/job'),
+    ProxyPoolManager = require('./lib/proxy_pool_manager');
+
+// Make winston globally available for other modules
+global.winston = winston;
 
 if (CONFIG.max_simultaneous_requests === undefined) {
     CONFIG.max_simultaneous_requests = 1;
 }
-
-winston.level = CONFIG.logLevel || 'debug';
 
 if (CONFIG.logins.length === 0) {
     console.log('There are no bot logins. Please add some in config.json');
@@ -34,23 +37,91 @@ if (args.steam_data) {
     CONFIG.bot_settings.steam_user.dataDirectory = args.steam_data;
 }
 
+// Initialize proxy pool manager if enabled
+let proxyPoolManager = null;
+if (CONFIG.proxy_pool && CONFIG.proxy_pool.enabled) {
+    winston.info('Initializing proxy pool manager...');
+    proxyPoolManager = new ProxyPoolManager(
+        CONFIG.proxy_pool.file || './proxies_value.txt',
+        CONFIG.proxy_pool.max_requests_per_proxy || 3,
+        CONFIG.proxy_pool.request_cooldown || 100,
+        CONFIG.proxy_pool  // Pass entire proxy_pool config for retry settings
+    );
+    botController.setProxyPoolManager(proxyPoolManager);
+    winston.info(`Proxy pool manager initialized with ${proxyPoolManager.proxyGroups.length} proxies`);
+    winston.info(`Login retry: ${CONFIG.proxy_pool.retry_on_login_failure ? 'enabled' : 'disabled'}, max retries: ${CONFIG.proxy_pool.max_login_retries || 3}`);
+}
+
+// Group bots for initialization
+const allBots = [];
+
 for (let [i, loginData] of CONFIG.logins.entries()) {
     const settings = Object.assign({}, CONFIG.bot_settings);
-    if (CONFIG.proxies && CONFIG.proxies.length > 0) {
-        const proxy = CONFIG.proxies[i % CONFIG.proxies.length];
+    allBots.push({ loginData, settings });
+}
 
-        if (proxy.startsWith('http://')) {
-            settings.steam_user = Object.assign({}, settings.steam_user, {httpProxy: proxy});
-        } else if (proxy.startsWith('socks5://')) {
-            settings.steam_user = Object.assign({}, settings.steam_user, {socksProxy: proxy});
-        } else {
-            console.log(`Invalid proxy '${proxy}' in config, must prefix with http:// or socks5://`);
-            process.exit(1);
+// Split into initial bots and spare accounts based on max_online_bots config
+const maxOnlineBots = CONFIG.max_online_bots || allBots.length;
+const botsToInitialize = allBots.slice(0, maxOnlineBots);
+const spareAccounts = allBots.slice(maxOnlineBots);
+
+winston.info(`Total accounts: ${allBots.length}, Target online: ${maxOnlineBots}, Spare accounts: ${spareAccounts.length}`);
+
+// Staggered bot startup
+async function startBotsStaggered() {
+    const delayBetweenWaves = 3000; // 3 seconds between waves
+    const chunkSize = 3; // Conservative approach - 3 bots per chunk for safe startup
+    
+    winston.info(`Starting ${botsToInitialize.length} bots (keeping ${spareAccounts.length} as spares)...`);
+    
+    if (proxyPoolManager) {
+        winston.info(`Using proxy pool with ${proxyPoolManager.proxyGroups.length} proxies`);
+    }
+    
+    let totalBotCount = 0;
+    
+    // Process bots in chunks
+    for (let i = 0; i < botsToInitialize.length; i += chunkSize) {
+        const chunk = botsToInitialize.slice(i, i + chunkSize);
+        totalBotCount += chunk.length;
+        
+        winston.info(`Starting ${chunk.length} bots (${totalBotCount}/${botsToInitialize.length} initial bots)`);
+        
+        // Add bots
+        const addedBots = [];
+        for (const { loginData, settings } of chunk) {
+            const bot = botController.addBot(loginData, settings);
+            addedBots.push(bot);
+        }
+        
+        // If using proxy pool, distribute bots after adding them
+        if (proxyPoolManager && addedBots.length > 0) {
+            proxyPoolManager.distributeBots(botController.bots);
+        }
+        
+        // Wait before starting next chunk
+        if (i + chunkSize < botsToInitialize.length) {
+            winston.info(`Waiting ${delayBetweenWaves / 1000} seconds before next batch...`);
+            await new Promise(resolve => setTimeout(resolve, delayBetweenWaves));
         }
     }
-
-    botController.addBot(loginData, settings);
+    
+    winston.info('All initial bots queued for startup');
+    
+    // Set spare accounts in bot controller
+    if (spareAccounts.length > 0) {
+        botController.setSpareAccounts(spareAccounts);
+        botController.setMaxOnlineBots(maxOnlineBots);
+        
+        // Check bot count periodically and add spares if needed
+        setInterval(() => {
+            botController.checkAndMaintainBotCount();
+        }, 30000); // Check every 30 seconds
+    }
 }
+
+// Start the staggered bot initialization
+startBotsStaggered();
 
 postgres.connect();
 
@@ -218,11 +289,80 @@ app.post('/bulk', (req, res) => {
 });
 
 app.get('/stats', (req, res) => {
-    res.json({
+    const stats = {
         bots_online: botController.getReadyAmount(),
         bots_total: botController.bots.length,
         queue_size: queue.queue.length,
         queue_concurrency: queue.concurrency,
+        pending_auth: botController.getPendingAuthBots().length
+    };
+    
+    // Add proxy pool stats if available
+    if (proxyPoolManager) {
+        stats.proxy_pool = proxyPoolManager.getStats();
+    }
+    
+    // Add pending auth details if any
+    const pendingAuthBots = botController.getPendingAuthBots();
+    if (pendingAuthBots.length > 0) {
+        stats.pending_auth_details = pendingAuthBots;
+    }
+    
+    res.json(stats);
+});
+
+// Endpoint to provide Steam Guard code for a bot
+app.post('/auth', (req, res) => {
+    if (!req.body || !req.body.username || !req.body.code) {
+        return res.status(400).json({ error: 'Username and code required' });
+    }
+    
+    // Optional: Add auth key for security
+    if (CONFIG.auth_key && req.body.auth_key !== CONFIG.auth_key) {
+        return res.status(403).json({ error: 'Invalid auth key' });
+    }
+    
+    const success = botController.retryBotWithAuthCode(req.body.username, req.body.code);
+    
+    if (success) {
+        res.json({ 
+            success: true, 
+            message: `Retrying bot ${req.body.username} with provided code`,
+            pending_auth_remaining: botController.getPendingAuthBots().length
+        });
+    } else {
+        res.status(404).json({ 
+            error: `Bot ${req.body.username} not found in pending auth queue`,
+            pending_auth_bots: botController.getPendingAuthBots().map(b => b.username)
+        });
+    }
+});
+
+// Endpoint to list bots waiting for Steam Guard
+app.get('/pending-auth', (req, res) => {
+    const pendingBots = botController.getPendingAuthBots();
+    res.json({
+        count: pendingBots.length,
+        bots: pendingBots
+    });
+});
+
+// Status monitoring endpoint
+app.get('/status', (req, res) => {
+    const status = botController.getBotStatus();
+    res.json({
+        ...status,
+        message: `${status.online}/${status.target} bots online`,
+        health: status.status,
+        details: {
+            online_bots: status.online,
+            target_bots: status.target,
+            total_bots: status.total,
+            busy_bots: status.busy,
+            failed_accounts: status.failed,
+            spare_accounts_remaining: status.spares,
+            pending_steam_guard: status.pendingAuth
+        }
     });
 });
 

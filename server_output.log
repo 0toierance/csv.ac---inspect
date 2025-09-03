@@ -1,0 +1,661 @@
+
+> csgofloat@4.0.0 start
+> node index.js
+
+info: Updating Game Files...
+info: Initializing proxy pool manager...
+info: Loaded 30 proxies from ../proxies_value.txt
+info: Proxy pool manager initialized with 30 proxies
+info: Login retry: enabled, max retries: 3
+info: Total accounts: 91, Target online: 300, Spare accounts: 0
+info: Starting 91 bots (keeping 0 as spares)...
+info: Using proxy pool with 30 proxies
+info: Starting 3 bots (3/91 initial bots)
+info: Logging in kindvector
+info: Logging in bxrfp3p7hbhnki7gdc3ycbn2ncvi
+info: Logging in k54qv8einpi83uxddphh9p9uoq2p
+info: Distributed 3 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: Listening for HTTP on port: 8082
+error: Failed to fetch items_game_cdn.txt
+info: k54qv8einpi83uxddphh9p9uoq2p Log on OK
+info: bxrfp3p7hbhnki7gdc3ycbn2ncvi Log on OK
+info: kindvector Log on OK
+info: k54qv8einpi83uxddphh9p9uoq2p Initiating GC Connection
+info: bxrfp3p7hbhnki7gdc3ycbn2ncvi Initiating GC Connection
+info: kindvector Initiating GC Connection
+info: Starting 3 bots (6/91 initial bots)
+info: Logging in vrde4mozbcywaej29lwjty7sjopc
+info: Logging in u0mx6mfoos99cuahkbt3binhuqtj
+info: Logging in ska4ch06wvcfqoct2who5fxpii90
+info: Distributed 6 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: k54qv8einpi83uxddphh9p9uoq2p CSGO Client Ready!
+info: bxrfp3p7hbhnki7gdc3ycbn2ncvi CSGO Client Ready!
+info: kindvector CSGO Client Ready!
+info: Starting 3 bots (9/91 initial bots)
+info: Logging in mwyxmc3237a1t7ahsddzjjauiimt
+info: Logging in ftnouv3pyi6ye26hhdru08ccbt0e
+info: Logging in qkf0bb4c9v0trl3ztusm29hlcv7f
+info: Distributed 9 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: ska4ch06wvcfqoct2who5fxpii90 Log on OK
+info: mwyxmc3237a1t7ahsddzjjauiimt Log on OK
+info: ftnouv3pyi6ye26hhdru08ccbt0e Log on OK
+info: qkf0bb4c9v0trl3ztusm29hlcv7f Log on OK
+info: Starting 3 bots (12/91 initial bots)
+info: Logging in makie9pm8l4tvsisda5n8n4fxxqu
+info: Logging in 7j77eeupguwamyvhhk59wgbz7k9a
+info: Logging in sngg1x9exwwowj2j5yecwq0c6qlj
+info: Distributed 12 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: ska4ch06wvcfqoct2who5fxpii90 Initiating GC Connection
+info: mwyxmc3237a1t7ahsddzjjauiimt Initiating GC Connection
+info: ftnouv3pyi6ye26hhdru08ccbt0e Initiating GC Connection
+info: qkf0bb4c9v0trl3ztusm29hlcv7f Initiating GC Connection
+info: u0mx6mfoos99cuahkbt3binhuqtj Log on OK
+info: mwyxmc3237a1t7ahsddzjjauiimt CSGO Client Ready!
+info: ftnouv3pyi6ye26hhdru08ccbt0e CSGO Client Ready!
+info: ska4ch06wvcfqoct2who5fxpii90 CSGO Client Ready!
+info: qkf0bb4c9v0trl3ztusm29hlcv7f CSGO Client Ready!
+info: u0mx6mfoos99cuahkbt3binhuqtj Initiating GC Connection
+info: Starting 3 bots (15/91 initial bots)
+info: Logging in amljphdb6o61keofhalpug3f91d2
+info: Logging in 860nww435zg7hf68lf349jvd7acz
+info: Logging in ybauej3adom3tq3bihbfwnynwv9l
+info: Distributed 15 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: u0mx6mfoos99cuahkbt3binhuqtj CSGO Client Ready!
+info: 7j77eeupguwamyvhhk59wgbz7k9a Log on OK
+info: Starting 3 bots (18/91 initial bots)
+info: Logging in t7hob3t8k4npmm5wh3n4zbjkgh75
+info: Logging in mg2w7zfpzs7xmvleqpahjpfl9a85
+info: Logging in kk5la78gpdomvfuwrum287q2ev15
+info: Distributed 18 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: amljphdb6o61keofhalpug3f91d2 Log on OK
+info: 860nww435zg7hf68lf349jvd7acz Log on OK
+info: ybauej3adom3tq3bihbfwnynwv9l Log on OK
+info: 860nww435zg7hf68lf349jvd7acz Initiating GC Connection
+info: ybauej3adom3tq3bihbfwnynwv9l Initiating GC Connection
+info: amljphdb6o61keofhalpug3f91d2 Initiating GC Connection
+info: 7j77eeupguwamyvhhk59wgbz7k9a Initiating GC Connection
+info: 860nww435zg7hf68lf349jvd7acz CSGO Client Ready!
+info: Starting 3 bots (21/91 initial bots)
+info: Logging in cm43zxwg1lce4v2roohssyq60tqp
+info: Logging in cg03t9az7qf64qzb77kvsmqch7aj
+info: Logging in cn6a8lb2tu1pvhvw0jykngd94t19
+info: Distributed 21 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: ybauej3adom3tq3bihbfwnynwv9l CSGO Client Ready!
+info: amljphdb6o61keofhalpug3f91d2 CSGO Client Ready!
+info: 7j77eeupguwamyvhhk59wgbz7k9a CSGO Client Ready!
+info: kk5la78gpdomvfuwrum287q2ev15 Log on OK
+info: mg2w7zfpzs7xmvleqpahjpfl9a85 Log on OK
+info: t7hob3t8k4npmm5wh3n4zbjkgh75 Log on OK
+info: Starting 3 bots (24/91 initial bots)
+info: Logging in ickg34nss0hans2qpzkxyvcv6owe
+info: Logging in yxb9got5m7r5ucuzg1cw2efo16rm
+info: Logging in trqjrw7csx3elzrv7j48yfpjd0uv
+info: Distributed 24 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: mg2w7zfpzs7xmvleqpahjpfl9a85 Initiating GC Connection
+info: kk5la78gpdomvfuwrum287q2ev15 Initiating GC Connection
+info: cm43zxwg1lce4v2roohssyq60tqp Log on OK
+info: mg2w7zfpzs7xmvleqpahjpfl9a85 CSGO Client Ready!
+info: t7hob3t8k4npmm5wh3n4zbjkgh75 Initiating GC Connection
+info: cn6a8lb2tu1pvhvw0jykngd94t19 Log on OK
+info: kk5la78gpdomvfuwrum287q2ev15 CSGO Client Ready!
+info: Starting 3 bots (27/91 initial bots)
+info: Logging in bazdl51ds2urhu0ls0x0pb4g48rd
+info: Logging in t0v267wfzglru38mxyya8dcopcts
+info: Logging in forvsgbjg2go7mlpijrt72uflxn6
+info: Distributed 27 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: t7hob3t8k4npmm5wh3n4zbjkgh75 CSGO Client Ready!
+error: Error logging in trqjrw7csx3elzrv7j48yfpjd0uv: message=Proxy HTTP CONNECT 500 Internal Server Error, stack=Error: Proxy HTTP CONNECT 500 Internal Server Error
+    at ClientRequest.<anonymous> (/Applications/Altruis/VSCode/inspect-server/inspect/node_modules/steam-user/components/connection_protocols/tcp.js:73:18)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketOnData (node:_http_client:591:11)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+warn: trqjrw7csx3elzrv7j48yfpjd0uv got proxy error: Error: Proxy HTTP CONNECT 500 Internal Server Error, will retry with different proxy
+warn: Bot trqjrw7csx3elzrv7j48yfpjd0uv login failed: Proxy HTTP CONNECT 500 Internal Server Error (reason: proxy)
+info: Bot trqjrw7csx3elzrv7j48yfpjd0uv got proxy error, attempting to retry with different proxy
+info: Reassigned bot trqjrw7csx3elzrv7j48yfpjd0uv to proxy group 0 (2/3 bots)
+info: Bot trqjrw7csx3elzrv7j48yfpjd0uv - Scheduling retry #1 in 10000ms
+info: ickg34nss0hans2qpzkxyvcv6owe Log on OK
+info: yxb9got5m7r5ucuzg1cw2efo16rm Log on OK
+info: cm43zxwg1lce4v2roohssyq60tqp Initiating GC Connection
+info: ickg34nss0hans2qpzkxyvcv6owe Initiating GC Connection
+info: cm43zxwg1lce4v2roohssyq60tqp CSGO Client Ready!
+info: Starting 3 bots (30/91 initial bots)
+info: Logging in j2aat82eg8ayh4yccaw3iyvz8j9d
+info: Logging in am89tgk1ajfklzbf6wd8xjfcmzij
+info: Logging in td83sdca9oet31qaxmska9tl2rd1
+info: Distributed 30 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: cn6a8lb2tu1pvhvw0jykngd94t19 Initiating GC Connection
+info: ickg34nss0hans2qpzkxyvcv6owe CSGO Client Ready!
+info: forvsgbjg2go7mlpijrt72uflxn6 Log on OK
+info: bazdl51ds2urhu0ls0x0pb4g48rd Log on OK
+info: cn6a8lb2tu1pvhvw0jykngd94t19 CSGO Client Ready!
+info: yxb9got5m7r5ucuzg1cw2efo16rm Initiating GC Connection
+info: yxb9got5m7r5ucuzg1cw2efo16rm CSGO Client Ready!
+info: Starting 3 bots (33/91 initial bots)
+info: Logging in abvtkb7s0wxiyxhho6cjncvzyc4d
+info: Logging in dph0vzdoirppf5yfk34ljw4tpeuy
+info: Logging in m2bxhoj1irizynjbz7afx2x3mid1
+info: Distributed 33 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: bazdl51ds2urhu0ls0x0pb4g48rd Initiating GC Connection
+info: forvsgbjg2go7mlpijrt72uflxn6 Initiating GC Connection
+info: j2aat82eg8ayh4yccaw3iyvz8j9d Log on OK
+info: t0v267wfzglru38mxyya8dcopcts Log on OK
+info: bazdl51ds2urhu0ls0x0pb4g48rd CSGO Client Ready!
+info: td83sdca9oet31qaxmska9tl2rd1 Log on OK
+info: forvsgbjg2go7mlpijrt72uflxn6 CSGO Client Ready!
+info: am89tgk1ajfklzbf6wd8xjfcmzij Log on OK
+info: j2aat82eg8ayh4yccaw3iyvz8j9d Initiating GC Connection
+info: Starting 3 bots (36/91 initial bots)
+info: Logging in bth4h15ubmr8b22r50jrnnugh8ge
+info: Logging in dgrwy86fccii8sbk1vefr2j4x5sk
+info: Logging in e5ogkv1zy0u3u9os4jbul9c7gq86
+info: Distributed 36 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: td83sdca9oet31qaxmska9tl2rd1 Initiating GC Connection
+info: abvtkb7s0wxiyxhho6cjncvzyc4d Log on OK
+info: m2bxhoj1irizynjbz7afx2x3mid1 Log on OK
+info: t0v267wfzglru38mxyya8dcopcts Initiating GC Connection
+info: j2aat82eg8ayh4yccaw3iyvz8j9d CSGO Client Ready!
+info: am89tgk1ajfklzbf6wd8xjfcmzij Initiating GC Connection
+info: dph0vzdoirppf5yfk34ljw4tpeuy Log on OK
+info: td83sdca9oet31qaxmska9tl2rd1 CSGO Client Ready!
+info: Retrying bot trqjrw7csx3elzrv7j48yfpjd0uv with proxy group 0 (success rate: 100.0%)
+info: Logging in trqjrw7csx3elzrv7j48yfpjd0uv
+info: t0v267wfzglru38mxyya8dcopcts CSGO Client Ready!
+info: am89tgk1ajfklzbf6wd8xjfcmzij CSGO Client Ready!
+info: e5ogkv1zy0u3u9os4jbul9c7gq86 Log on OK
+info: bth4h15ubmr8b22r50jrnnugh8ge Log on OK
+info: dgrwy86fccii8sbk1vefr2j4x5sk Log on OK
+info: m2bxhoj1irizynjbz7afx2x3mid1 Initiating GC Connection
+info: Starting 3 bots (39/91 initial bots)
+info: Logging in 0qlst38nb7gvd580ing9p0zf75x1
+info: Logging in 6fazvc9ru1b015qt43mxtki07f9u
+info: Logging in 504e81ibf233tydodybnu980uvlo
+info: Distributed 39 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: m2bxhoj1irizynjbz7afx2x3mid1 CSGO Client Ready!
+info: e5ogkv1zy0u3u9os4jbul9c7gq86 Initiating GC Connection
+info: bth4h15ubmr8b22r50jrnnugh8ge Initiating GC Connection
+info: dgrwy86fccii8sbk1vefr2j4x5sk Initiating GC Connection
+info: dph0vzdoirppf5yfk34ljw4tpeuy Initiating GC Connection
+info: abvtkb7s0wxiyxhho6cjncvzyc4d Initiating GC Connection
+info: e5ogkv1zy0u3u9os4jbul9c7gq86 CSGO Client Ready!
+info: bth4h15ubmr8b22r50jrnnugh8ge CSGO Client Ready!
+info: dgrwy86fccii8sbk1vefr2j4x5sk CSGO Client Ready!
+info: dph0vzdoirppf5yfk34ljw4tpeuy CSGO Client Ready!
+info: trqjrw7csx3elzrv7j48yfpjd0uv Log on OK
+info: abvtkb7s0wxiyxhho6cjncvzyc4d CSGO Client Ready!
+info: Starting 3 bots (42/91 initial bots)
+info: Logging in isgrqg5hd0h2bob7bexsy9mlonv6
+info: Logging in 1g15e0xg2m2d1sbvfbt6h0xdg2vl
+info: Logging in 2bnymeej0iq9slzrhkxwi3znirs8
+info: Distributed 42 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: 6fazvc9ru1b015qt43mxtki07f9u Log on OK
+info: 504e81ibf233tydodybnu980uvlo Log on OK
+info: trqjrw7csx3elzrv7j48yfpjd0uv Initiating GC Connection
+info: 0qlst38nb7gvd580ing9p0zf75x1 Log on OK
+info: 6fazvc9ru1b015qt43mxtki07f9u Initiating GC Connection
+info: 504e81ibf233tydodybnu980uvlo Initiating GC Connection
+info: Starting 3 bots (45/91 initial bots)
+info: Logging in mth8xhtb6qb242teg2bydz59wxhd
+info: Logging in i6koagu3akruosycdsbdzsz6hvzp
+info: Logging in oazje5myd5xlfrxilm96zxfns16m
+info: Distributed 45 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: 6fazvc9ru1b015qt43mxtki07f9u CSGO Client Ready!
+info: 0qlst38nb7gvd580ing9p0zf75x1 Initiating GC Connection
+info: 504e81ibf233tydodybnu980uvlo CSGO Client Ready!
+info: 2bnymeej0iq9slzrhkxwi3znirs8 Log on OK
+info: 0qlst38nb7gvd580ing9p0zf75x1 CSGO Client Ready!
+info: isgrqg5hd0h2bob7bexsy9mlonv6 Log on OK
+info: 1g15e0xg2m2d1sbvfbt6h0xdg2vl Log on OK
+info: Starting 3 bots (48/91 initial bots)
+info: Logging in f1vgvvso94m78e326tez9w3sdqlk
+info: Logging in q7b6xl0t9ar8c2c8loztld9x3n9v
+info: Logging in vdslwdeeg5ucl88sok7izn7fp0we
+info: Distributed 48 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: i6koagu3akruosycdsbdzsz6hvzp Log on OK
+info: 2bnymeej0iq9slzrhkxwi3znirs8 Initiating GC Connection
+info: oazje5myd5xlfrxilm96zxfns16m Log on OK
+info: isgrqg5hd0h2bob7bexsy9mlonv6 Initiating GC Connection
+info: 1g15e0xg2m2d1sbvfbt6h0xdg2vl Initiating GC Connection
+info: 2bnymeej0iq9slzrhkxwi3znirs8 CSGO Client Ready!
+info: mth8xhtb6qb242teg2bydz59wxhd Log on OK
+info: isgrqg5hd0h2bob7bexsy9mlonv6 CSGO Client Ready!
+info: 1g15e0xg2m2d1sbvfbt6h0xdg2vl CSGO Client Ready!
+info: i6koagu3akruosycdsbdzsz6hvzp Initiating GC Connection
+info: Starting 3 bots (51/91 initial bots)
+info: Logging in dohkm90ornydv1vf5m55n2fmcev8
+info: Logging in mondvxrtgfepehl410n9wibke8jw
+info: Logging in v8jst73qjy1jaaqg15pnca5v93qy
+info: Distributed 51 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: oazje5myd5xlfrxilm96zxfns16m Initiating GC Connection
+info: i6koagu3akruosycdsbdzsz6hvzp CSGO Client Ready!
+info: q7b6xl0t9ar8c2c8loztld9x3n9v Log on OK
+info: vdslwdeeg5ucl88sok7izn7fp0we Log on OK
+info: oazje5myd5xlfrxilm96zxfns16m CSGO Client Ready!
+info: mth8xhtb6qb242teg2bydz59wxhd Initiating GC Connection
+info: f1vgvvso94m78e326tez9w3sdqlk Log on OK
+info: mth8xhtb6qb242teg2bydz59wxhd CSGO Client Ready!
+info: Starting 3 bots (54/91 initial bots)
+info: Logging in t7ooin7yaperbeyimw9ura23vbzq
+info: Logging in wr37dwiswnphllq5hbd8xla030wc
+info: Logging in j0zhbngx8ynyg2ehnv34g3taqiwz
+info: Distributed 54 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: q7b6xl0t9ar8c2c8loztld9x3n9v Initiating GC Connection
+info: vdslwdeeg5ucl88sok7izn7fp0we Initiating GC Connection
+info: q7b6xl0t9ar8c2c8loztld9x3n9v CSGO Client Ready!
+info: mondvxrtgfepehl410n9wibke8jw Log on OK
+info: v8jst73qjy1jaaqg15pnca5v93qy Log on OK
+info: f1vgvvso94m78e326tez9w3sdqlk Initiating GC Connection
+info: vdslwdeeg5ucl88sok7izn7fp0we CSGO Client Ready!
+info: f1vgvvso94m78e326tez9w3sdqlk CSGO Client Ready!
+info: t7ooin7yaperbeyimw9ura23vbzq Log on OK
+info: wr37dwiswnphllq5hbd8xla030wc Log on OK
+info: Starting 3 bots (57/91 initial bots)
+info: Logging in 7jeehlbpgeubk370l26z9k3ojjdu
+info: Logging in z2u34cfbsm065is2bwj8u7qtw4yk
+info: Logging in veiz973gjrr1qbmhzl489glaklv8
+info: Distributed 57 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: j0zhbngx8ynyg2ehnv34g3taqiwz Log on OK
+info: v8jst73qjy1jaaqg15pnca5v93qy Initiating GC Connection
+info: mondvxrtgfepehl410n9wibke8jw Initiating GC Connection
+info: t7ooin7yaperbeyimw9ura23vbzq Initiating GC Connection
+info: wr37dwiswnphllq5hbd8xla030wc Initiating GC Connection
+info: v8jst73qjy1jaaqg15pnca5v93qy CSGO Client Ready!
+info: j0zhbngx8ynyg2ehnv34g3taqiwz Initiating GC Connection
+info: mondvxrtgfepehl410n9wibke8jw CSGO Client Ready!
+info: t7ooin7yaperbeyimw9ura23vbzq CSGO Client Ready!
+info: wr37dwiswnphllq5hbd8xla030wc CSGO Client Ready!
+info: j0zhbngx8ynyg2ehnv34g3taqiwz CSGO Client Ready!
+info: Starting 3 bots (60/91 initial bots)
+info: Logging in lksrr2aogbtm153spc7ds8m36oqv
+info: Logging in duprvf2588z5dra1ofbtuofrhdg0
+info: Logging in yuq3ijn86gqzyku73i0fih6f23o8
+info: Distributed 60 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: veiz973gjrr1qbmhzl489glaklv8 Log on OK
+info: 7jeehlbpgeubk370l26z9k3ojjdu Log on OK
+info: Starting 3 bots (63/91 initial bots)
+info: Logging in 2ekj95gyduxxyvh210f3u5ns38pw
+info: Logging in i3laas6pt2tju3xoneg9wdbmcit6
+info: Logging in mr0fskyvacewyv1lccq5x4pfy550
+info: Distributed 63 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: veiz973gjrr1qbmhzl489glaklv8 Initiating GC Connection
+info: 7jeehlbpgeubk370l26z9k3ojjdu Initiating GC Connection
+info: lksrr2aogbtm153spc7ds8m36oqv Log on OK
+info: veiz973gjrr1qbmhzl489glaklv8 CSGO Client Ready!
+info: 7jeehlbpgeubk370l26z9k3ojjdu CSGO Client Ready!
+info: duprvf2588z5dra1ofbtuofrhdg0 Log on OK
+info: z2u34cfbsm065is2bwj8u7qtw4yk Log on OK
+info: yuq3ijn86gqzyku73i0fih6f23o8 Log on OK
+info: Starting 3 bots (66/91 initial bots)
+info: Logging in 0egdizph215n088txulmjh4wkm7n
+info: Logging in odxbqaqhuplayuq7xddbxmlfrb7a
+info: Logging in 9twbwzybw9tfuosuqozgqr5nrznz
+info: Distributed 66 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: lksrr2aogbtm153spc7ds8m36oqv Initiating GC Connection
+info: mr0fskyvacewyv1lccq5x4pfy550 Log on OK
+info: 2ekj95gyduxxyvh210f3u5ns38pw Log on OK
+info: duprvf2588z5dra1ofbtuofrhdg0 Initiating GC Connection
+info: z2u34cfbsm065is2bwj8u7qtw4yk Initiating GC Connection
+info: lksrr2aogbtm153spc7ds8m36oqv CSGO Client Ready!
+info: duprvf2588z5dra1ofbtuofrhdg0 CSGO Client Ready!
+info: z2u34cfbsm065is2bwj8u7qtw4yk CSGO Client Ready!
+info: yuq3ijn86gqzyku73i0fih6f23o8 Initiating GC Connection
+info: i3laas6pt2tju3xoneg9wdbmcit6 Log on OK
+info: 2ekj95gyduxxyvh210f3u5ns38pw Initiating GC Connection
+info: mr0fskyvacewyv1lccq5x4pfy550 Initiating GC Connection
+info: Starting 3 bots (69/91 initial bots)
+info: Logging in 2iwgtddxu2q6sw5b5pl8eoli3p84
+info: Logging in d4p5xmctwejz8wwmzzonwasfgzxt
+info: Logging in x4b2cxig3yhv0nt0zap57amupdni
+info: Distributed 69 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: yuq3ijn86gqzyku73i0fih6f23o8 CSGO Client Ready!
+info: odxbqaqhuplayuq7xddbxmlfrb7a Log on OK
+info: 2ekj95gyduxxyvh210f3u5ns38pw CSGO Client Ready!
+info: mr0fskyvacewyv1lccq5x4pfy550 CSGO Client Ready!
+info: i3laas6pt2tju3xoneg9wdbmcit6 Initiating GC Connection
+warn: d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard prompt (domain: csv.ac, lastCodeWrong: false)
+warn: Bot d4p5xmctwejz8wwmzzonwasfgzxt login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard error, trying different proxy
+info: Reassigned bot d4p5xmctwejz8wwmzzonwasfgzxt to proxy group 24 (1/3 bots)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt - Scheduling retry #1 with proxy group 24 in 15 seconds
+info: x4b2cxig3yhv0nt0zap57amupdni Log on OK
+info: 2iwgtddxu2q6sw5b5pl8eoli3p84 Log on OK
+info: Starting 3 bots (72/91 initial bots)
+info: Logging in 8k7l79gmwmqif58vhlx4lge3gryb
+info: Logging in xsbu4n7jhbcxyh88ibdw9fnsq4kt
+info: Logging in ih2l08utr3n5pvgwpkeaqjgau6ct
+info: Distributed 72 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: 9twbwzybw9tfuosuqozgqr5nrznz Log on OK
+info: 0egdizph215n088txulmjh4wkm7n Log on OK
+info: odxbqaqhuplayuq7xddbxmlfrb7a Initiating GC Connection
+info: i3laas6pt2tju3xoneg9wdbmcit6 CSGO Client Ready!
+info: x4b2cxig3yhv0nt0zap57amupdni Initiating GC Connection
+info: 2iwgtddxu2q6sw5b5pl8eoli3p84 Initiating GC Connection
+info: odxbqaqhuplayuq7xddbxmlfrb7a CSGO Client Ready!
+info: x4b2cxig3yhv0nt0zap57amupdni CSGO Client Ready!
+info: 2iwgtddxu2q6sw5b5pl8eoli3p84 CSGO Client Ready!
+info: 0egdizph215n088txulmjh4wkm7n Initiating GC Connection
+info: 9twbwzybw9tfuosuqozgqr5nrznz Initiating GC Connection
+info: Starting 3 bots (75/91 initial bots)
+info: Logging in uaflpzx9pem0bvkuj0j17qayxq1v
+info: Logging in ptozcjyvcs8skxsw14v60e40yvmd
+info: Logging in lw1sjf5anqk2vafjuhrl7pwfd3uq
+info: Distributed 75 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: xsbu4n7jhbcxyh88ibdw9fnsq4kt Log on OK
+info: 0egdizph215n088txulmjh4wkm7n CSGO Client Ready!
+info: 9twbwzybw9tfuosuqozgqr5nrznz CSGO Client Ready!
+info: 8k7l79gmwmqif58vhlx4lge3gryb Log on OK
+info: ih2l08utr3n5pvgwpkeaqjgau6ct Log on OK
+info: xsbu4n7jhbcxyh88ibdw9fnsq4kt Initiating GC Connection
+info: 8k7l79gmwmqif58vhlx4lge3gryb Initiating GC Connection
+info: xsbu4n7jhbcxyh88ibdw9fnsq4kt CSGO Client Ready!
+info: ih2l08utr3n5pvgwpkeaqjgau6ct Initiating GC Connection
+info: Starting 3 bots (78/91 initial bots)
+info: Logging in z5wb0s8bte8s1smzo0f5m6zuazx4
+info: Logging in ndaby8048oqhb1oj0inyj7owjfcy
+info: Logging in 55c96wk1rx2nw46ti2x4ap6bz4mg
+info: Distributed 78 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: ptozcjyvcs8skxsw14v60e40yvmd Log on OK
+info: 8k7l79gmwmqif58vhlx4lge3gryb CSGO Client Ready!
+info: lw1sjf5anqk2vafjuhrl7pwfd3uq Log on OK
+info: ih2l08utr3n5pvgwpkeaqjgau6ct CSGO Client Ready!
+info: uaflpzx9pem0bvkuj0j17qayxq1v Log on OK
+info: z5wb0s8bte8s1smzo0f5m6zuazx4 Log on OK
+info: 55c96wk1rx2nw46ti2x4ap6bz4mg Log on OK
+info: ndaby8048oqhb1oj0inyj7owjfcy Log on OK
+info: Starting 3 bots (81/91 initial bots)
+info: Logging in rn8lsmbvn5g8cvg54kcpiod4yf9w
+info: Logging in 6ilw2albzt56cl70lop3fyqmwrlt
+info: Logging in zc8y0grra35g00njcgpbvy7fo5el
+info: Distributed 81 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: lw1sjf5anqk2vafjuhrl7pwfd3uq Initiating GC Connection
+info: ptozcjyvcs8skxsw14v60e40yvmd Initiating GC Connection
+info: uaflpzx9pem0bvkuj0j17qayxq1v Initiating GC Connection
+info: lw1sjf5anqk2vafjuhrl7pwfd3uq CSGO Client Ready!
+info: 55c96wk1rx2nw46ti2x4ap6bz4mg Initiating GC Connection
+info: uaflpzx9pem0bvkuj0j17qayxq1v CSGO Client Ready!
+info: ptozcjyvcs8skxsw14v60e40yvmd CSGO Client Ready!
+info: ndaby8048oqhb1oj0inyj7owjfcy Initiating GC Connection
+info: z5wb0s8bte8s1smzo0f5m6zuazx4 Initiating GC Connection
+info: zc8y0grra35g00njcgpbvy7fo5el Log on OK
+info: rn8lsmbvn5g8cvg54kcpiod4yf9w Log on OK
+info: 6ilw2albzt56cl70lop3fyqmwrlt Log on OK
+info: 55c96wk1rx2nw46ti2x4ap6bz4mg CSGO Client Ready!
+info: z5wb0s8bte8s1smzo0f5m6zuazx4 CSGO Client Ready!
+info: ndaby8048oqhb1oj0inyj7owjfcy CSGO Client Ready!
+info: Starting 3 bots (84/91 initial bots)
+info: Logging in uxetwo5eng4ec0td1tbiwhj4dkis
+info: Logging in cxhdjiud7fuvy2u07n83u91om9sy
+info: Logging in zucw1lhvfpp2shbaszr31qhdgqk7
+info: Distributed 84 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: 6ilw2albzt56cl70lop3fyqmwrlt Initiating GC Connection
+info: zc8y0grra35g00njcgpbvy7fo5el Initiating GC Connection
+info: rn8lsmbvn5g8cvg54kcpiod4yf9w Initiating GC Connection
+info: 6ilw2albzt56cl70lop3fyqmwrlt CSGO Client Ready!
+info: zc8y0grra35g00njcgpbvy7fo5el CSGO Client Ready!
+info: rn8lsmbvn5g8cvg54kcpiod4yf9w CSGO Client Ready!
+info: Retrying bot d4p5xmctwejz8wwmzzonwasfgzxt with proxy group 24 after Steam Guard error
+info: Logging in d4p5xmctwejz8wwmzzonwasfgzxt
+info: Starting 3 bots (87/91 initial bots)
+info: Logging in l8sy1j5xmthigtdhp8a9w5altoez
+info: Logging in gz3xhduj1u2l9p08vdjke7dorm52
+info: Logging in lfgbg1xr87m49eds818h1h4xu5ix
+info: Distributed 87 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+info: cxhdjiud7fuvy2u07n83u91om9sy Log on OK
+info: zucw1lhvfpp2shbaszr31qhdgqk7 Log on OK
+warn: d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard prompt (domain: csv.ac, lastCodeWrong: false)
+warn: Bot d4p5xmctwejz8wwmzzonwasfgzxt login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard error, trying different proxy
+info: Reassigned bot d4p5xmctwejz8wwmzzonwasfgzxt to proxy group 29 (1/3 bots)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt - Scheduling retry #2 with proxy group 29 in 15 seconds
+info: uxetwo5eng4ec0td1tbiwhj4dkis Log on OK
+warn: l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot l8sy1j5xmthigtdhp8a9w5altoez login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard error, trying different proxy
+info: Reassigned bot l8sy1j5xmthigtdhp8a9w5altoez to proxy group 22 (3/3 bots)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez - Scheduling retry #1 with proxy group 22 in 15 seconds
+info: zucw1lhvfpp2shbaszr31qhdgqk7 Initiating GC Connection
+info: cxhdjiud7fuvy2u07n83u91om9sy Initiating GC Connection
+warn: gz3xhduj1u2l9p08vdjke7dorm52 got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot gz3xhduj1u2l9p08vdjke7dorm52 login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot gz3xhduj1u2l9p08vdjke7dorm52 got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot gz3xhduj1u2l9p08vdjke7dorm52 got Steam Guard error, trying different proxy
+info: Reassigned bot gz3xhduj1u2l9p08vdjke7dorm52 to proxy group 29 (2/3 bots)
+info: Bot gz3xhduj1u2l9p08vdjke7dorm52 - Scheduling retry #1 with proxy group 29 in 15 seconds
+info: Starting 3 bots (90/91 initial bots)
+info: Logging in rcbi5qga4zz3oiwbgv0eah0jn50y
+info: Logging in 7b0a4cflz6ai0qa4udvk274ddj75
+info: Logging in 1ve242idrxgh7qwvk4wtt74fjnsq
+info: Distributed 90 bots across 30 proxy groups
+info: Waiting 3 seconds before next batch...
+warn: lfgbg1xr87m49eds818h1h4xu5ix got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot lfgbg1xr87m49eds818h1h4xu5ix login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot lfgbg1xr87m49eds818h1h4xu5ix got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot lfgbg1xr87m49eds818h1h4xu5ix got Steam Guard error, trying different proxy
+warn: No available proxy groups for bot lfgbg1xr87m49eds818h1h4xu5ix reassignment
+warn: No alternative proxy for Steam Guard retry, will use same proxy
+error: Bot lfgbg1xr87m49eds818h1h4xu5ix - Cannot retry Steam Guard error without proxy pool manager
+info: cxhdjiud7fuvy2u07n83u91om9sy CSGO Client Ready!
+info: zucw1lhvfpp2shbaszr31qhdgqk7 CSGO Client Ready!
+info: uxetwo5eng4ec0td1tbiwhj4dkis Initiating GC Connection
+info: uxetwo5eng4ec0td1tbiwhj4dkis CSGO Client Ready!
+warn: rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot rcbi5qga4zz3oiwbgv0eah0jn50y login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard error, trying different proxy
+info: Reassigned bot rcbi5qga4zz3oiwbgv0eah0jn50y to proxy group 28 (3/3 bots)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y - Scheduling retry #1 with proxy group 28 in 15 seconds
+info: Starting 1 bots (91/91 initial bots)
+info: Logging in 6pojivs99uqtqzcb49zim9tg6d9a
+info: Distributed 91 bots across 30 proxy groups
+info: All initial bots queued for startup
+warn: 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 7b0a4cflz6ai0qa4udvk274ddj75 login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard error, trying different proxy
+info: Reassigned bot 7b0a4cflz6ai0qa4udvk274ddj75 to proxy group 24 (1/3 bots)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 - Scheduling retry #1 with proxy group 24 in 15 seconds
+warn: 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 1ve242idrxgh7qwvk4wtt74fjnsq login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard error, trying different proxy
+info: Reassigned bot 1ve242idrxgh7qwvk4wtt74fjnsq to proxy group 25 (1/3 bots)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq - Scheduling retry #1 with proxy group 25 in 15 seconds
+warn: 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 6pojivs99uqtqzcb49zim9tg6d9a login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard error, trying different proxy
+info: Reassigned bot 6pojivs99uqtqzcb49zim9tg6d9a to proxy group 26 (1/3 bots)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a - Scheduling retry #1 with proxy group 26 in 15 seconds
+info: Retrying bot d4p5xmctwejz8wwmzzonwasfgzxt with proxy group 29 after Steam Guard error
+info: Logging in d4p5xmctwejz8wwmzzonwasfgzxt
+info: Retrying bot l8sy1j5xmthigtdhp8a9w5altoez with proxy group 22 after Steam Guard error
+info: Logging in l8sy1j5xmthigtdhp8a9w5altoez
+info: Retrying bot gz3xhduj1u2l9p08vdjke7dorm52 with proxy group 29 after Steam Guard error
+info: Logging in gz3xhduj1u2l9p08vdjke7dorm52
+warn: d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard prompt (domain: csv.ac, lastCodeWrong: false)
+warn: Bot d4p5xmctwejz8wwmzzonwasfgzxt login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard error, trying different proxy
+info: Reassigned bot d4p5xmctwejz8wwmzzonwasfgzxt to proxy group 27 (1/3 bots)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt - Scheduling retry #3 with proxy group 27 in 15 seconds
+warn: l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot l8sy1j5xmthigtdhp8a9w5altoez login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard error, trying different proxy
+info: Reassigned bot l8sy1j5xmthigtdhp8a9w5altoez to proxy group 24 (2/3 bots)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez - Scheduling retry #2 with proxy group 24 in 15 seconds
+info: Retrying bot rcbi5qga4zz3oiwbgv0eah0jn50y with proxy group 28 after Steam Guard error
+info: Logging in rcbi5qga4zz3oiwbgv0eah0jn50y
+info: Retrying bot 7b0a4cflz6ai0qa4udvk274ddj75 with proxy group 24 after Steam Guard error
+info: Logging in 7b0a4cflz6ai0qa4udvk274ddj75
+info: Retrying bot 1ve242idrxgh7qwvk4wtt74fjnsq with proxy group 25 after Steam Guard error
+info: Logging in 1ve242idrxgh7qwvk4wtt74fjnsq
+info: Retrying bot 6pojivs99uqtqzcb49zim9tg6d9a with proxy group 26 after Steam Guard error
+info: Logging in 6pojivs99uqtqzcb49zim9tg6d9a
+warn: 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 7b0a4cflz6ai0qa4udvk274ddj75 login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard error, trying different proxy
+info: Reassigned bot 7b0a4cflz6ai0qa4udvk274ddj75 to proxy group 25 (2/3 bots)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 - Scheduling retry #2 with proxy group 25 in 15 seconds
+error: Error logging in rcbi5qga4zz3oiwbgv0eah0jn50y: message=Proxy HTTP CONNECT 500 Internal Server Error, stack=Error: Proxy HTTP CONNECT 500 Internal Server Error
+    at ClientRequest.<anonymous> (/Applications/Altruis/VSCode/inspect-server/inspect/node_modules/steam-user/components/connection_protocols/tcp.js:73:18)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketOnData (node:_http_client:591:11)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+warn: rcbi5qga4zz3oiwbgv0eah0jn50y got proxy error: Error: Proxy HTTP CONNECT 500 Internal Server Error, will retry with different proxy
+warn: Bot rcbi5qga4zz3oiwbgv0eah0jn50y login failed: Proxy HTTP CONNECT 500 Internal Server Error (reason: proxy)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got proxy error, attempting to retry with different proxy
+info: Reassigned bot rcbi5qga4zz3oiwbgv0eah0jn50y to proxy group 26 (2/3 bots)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y - Scheduling retry #2 in 10000ms
+warn: 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 1ve242idrxgh7qwvk4wtt74fjnsq login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard error, trying different proxy
+info: Reassigned bot 1ve242idrxgh7qwvk4wtt74fjnsq to proxy group 27 (2/3 bots)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq - Scheduling retry #2 with proxy group 27 in 15 seconds
+warn: 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 6pojivs99uqtqzcb49zim9tg6d9a login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard error, trying different proxy
+info: Reassigned bot 6pojivs99uqtqzcb49zim9tg6d9a to proxy group 27 (3/3 bots)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a - Scheduling retry #2 with proxy group 27 in 15 seconds
+info: Retrying bot d4p5xmctwejz8wwmzzonwasfgzxt with proxy group 27 after Steam Guard error
+info: Logging in d4p5xmctwejz8wwmzzonwasfgzxt
+info: Retrying bot rcbi5qga4zz3oiwbgv0eah0jn50y with proxy group 26 (success rate: 100.0%)
+info: Logging in rcbi5qga4zz3oiwbgv0eah0jn50y
+info: Retrying bot l8sy1j5xmthigtdhp8a9w5altoez with proxy group 24 after Steam Guard error
+info: Logging in l8sy1j5xmthigtdhp8a9w5altoez
+warn: l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot l8sy1j5xmthigtdhp8a9w5altoez login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard error, trying different proxy
+info: Reassigned bot l8sy1j5xmthigtdhp8a9w5altoez to proxy group 23 (1/3 bots)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez - Scheduling retry #3 with proxy group 23 in 15 seconds
+warn: rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot rcbi5qga4zz3oiwbgv0eah0jn50y login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard error, trying different proxy
+info: Reassigned bot rcbi5qga4zz3oiwbgv0eah0jn50y to proxy group 23 (2/3 bots)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y - Scheduling retry #3 with proxy group 23 in 15 seconds
+warn: d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard prompt (domain: csv.ac, lastCodeWrong: false)
+warn: Bot d4p5xmctwejz8wwmzzonwasfgzxt login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot d4p5xmctwejz8wwmzzonwasfgzxt got Steam Guard error, trying different proxy
+error: Bot d4p5xmctwejz8wwmzzonwasfgzxt exceeded max retries even for Steam Guard
+error: Bot d4p5xmctwejz8wwmzzonwasfgzxt - Cannot retry Steam Guard error without proxy pool manager
+info: Retrying bot 7b0a4cflz6ai0qa4udvk274ddj75 with proxy group 25 after Steam Guard error
+info: Logging in 7b0a4cflz6ai0qa4udvk274ddj75
+info: Retrying bot 1ve242idrxgh7qwvk4wtt74fjnsq with proxy group 27 after Steam Guard error
+info: Logging in 1ve242idrxgh7qwvk4wtt74fjnsq
+warn: 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 7b0a4cflz6ai0qa4udvk274ddj75 login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard error, trying different proxy
+info: Reassigned bot 7b0a4cflz6ai0qa4udvk274ddj75 to proxy group 21 (3/3 bots)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 - Scheduling retry #3 with proxy group 21 in 15 seconds
+info: Retrying bot 6pojivs99uqtqzcb49zim9tg6d9a with proxy group 27 after Steam Guard error
+info: Logging in 6pojivs99uqtqzcb49zim9tg6d9a
+warn: 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 1ve242idrxgh7qwvk4wtt74fjnsq login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got Steam Guard error, trying different proxy
+info: Reassigned bot 1ve242idrxgh7qwvk4wtt74fjnsq to proxy group 23 (3/3 bots)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq - Scheduling retry #3 with proxy group 23 in 15 seconds
+warn: 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 6pojivs99uqtqzcb49zim9tg6d9a login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard error, trying different proxy
+info: Reassigned bot 6pojivs99uqtqzcb49zim9tg6d9a to proxy group 24 (1/3 bots)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a - Scheduling retry #3 with proxy group 24 in 15 seconds
+info: Retrying bot l8sy1j5xmthigtdhp8a9w5altoez with proxy group 23 after Steam Guard error
+info: Logging in l8sy1j5xmthigtdhp8a9w5altoez
+info: Retrying bot rcbi5qga4zz3oiwbgv0eah0jn50y with proxy group 23 after Steam Guard error
+info: Logging in rcbi5qga4zz3oiwbgv0eah0jn50y
+warn: rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot rcbi5qga4zz3oiwbgv0eah0jn50y login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot rcbi5qga4zz3oiwbgv0eah0jn50y got Steam Guard error, trying different proxy
+error: Bot rcbi5qga4zz3oiwbgv0eah0jn50y exceeded max retries even for Steam Guard
+error: Bot rcbi5qga4zz3oiwbgv0eah0jn50y - Cannot retry Steam Guard error without proxy pool manager
+warn: l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot l8sy1j5xmthigtdhp8a9w5altoez login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot l8sy1j5xmthigtdhp8a9w5altoez got Steam Guard error, trying different proxy
+error: Bot l8sy1j5xmthigtdhp8a9w5altoez exceeded max retries even for Steam Guard
+error: Bot l8sy1j5xmthigtdhp8a9w5altoez - Cannot retry Steam Guard error without proxy pool manager
+info: Retrying bot 7b0a4cflz6ai0qa4udvk274ddj75 with proxy group 21 after Steam Guard error
+info: Logging in 7b0a4cflz6ai0qa4udvk274ddj75
+info: Retrying bot 1ve242idrxgh7qwvk4wtt74fjnsq with proxy group 23 after Steam Guard error
+info: Logging in 1ve242idrxgh7qwvk4wtt74fjnsq
+warn: 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 7b0a4cflz6ai0qa4udvk274ddj75 login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 7b0a4cflz6ai0qa4udvk274ddj75 got Steam Guard error, trying different proxy
+error: Bot 7b0a4cflz6ai0qa4udvk274ddj75 exceeded max retries even for Steam Guard
+error: Bot 7b0a4cflz6ai0qa4udvk274ddj75 - Cannot retry Steam Guard error without proxy pool manager
+info: Retrying bot 6pojivs99uqtqzcb49zim9tg6d9a with proxy group 24 after Steam Guard error
+info: Logging in 6pojivs99uqtqzcb49zim9tg6d9a
+error: Error logging in 1ve242idrxgh7qwvk4wtt74fjnsq: message=Proxy HTTP CONNECT 500 Internal Server Error, stack=Error: Proxy HTTP CONNECT 500 Internal Server Error
+    at ClientRequest.<anonymous> (/Applications/Altruis/VSCode/inspect-server/inspect/node_modules/steam-user/components/connection_protocols/tcp.js:73:18)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketOnData (node:_http_client:591:11)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+warn: 1ve242idrxgh7qwvk4wtt74fjnsq got proxy error: Error: Proxy HTTP CONNECT 500 Internal Server Error, will retry with different proxy
+warn: Bot 1ve242idrxgh7qwvk4wtt74fjnsq login failed: Proxy HTTP CONNECT 500 Internal Server Error (reason: proxy)
+info: Bot 1ve242idrxgh7qwvk4wtt74fjnsq got proxy error, attempting to retry with different proxy
+error: Bot 1ve242idrxgh7qwvk4wtt74fjnsq exceeded max login retries (3)
+error: Bot 1ve242idrxgh7qwvk4wtt74fjnsq will not be retried (exceeded max retries or no proxies available)
+error: Account 1ve242idrxgh7qwvk4wtt74fjnsq permanently failed: Login failure after 0 retries: proxy
+info: Total failed accounts: 1
+warn: No spare accounts available
+warn: 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard prompt (domain: ouidily.com, lastCodeWrong: false)
+warn: Bot 6pojivs99uqtqzcb49zim9tg6d9a login failed: Steam Guard prompt - false positive (reason: steamguard)
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got false Steam Guard prompt, will retry with different proxy in 15 seconds
+info: Bot 6pojivs99uqtqzcb49zim9tg6d9a got Steam Guard error, trying different proxy
+error: Bot 6pojivs99uqtqzcb49zim9tg6d9a exceeded max retries even for Steam Guard
+error: Bot 6pojivs99uqtqzcb49zim9tg6d9a - Cannot retry Steam Guard error without proxy pool manager

@@ -5,3 +5,16 @@ sentry
 game_files
 .DS_Store
 .idea
+
+# Random files 
+
+fix_config.py
+proxies_value.txt
+
+# Logging 
+
+combined.log 
+debug.log 
+
+# Backup Config 
+/Applications/Altruis/VSCode/inspect-server/inspect/config.js.backup
