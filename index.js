@@ -361,6 +361,7 @@ app.get('/status', (req, res) => {
             busy_bots: status.busy,
             failed_accounts: status.failed,
             spare_accounts_remaining: status.spares,
+            spare_accounts_queued: status.queuedSpares,
             pending_steam_guard: status.pendingAuth
         }
     });
